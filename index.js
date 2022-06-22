@@ -14,8 +14,11 @@ else if (operator == '-') {
 else if (operator == '*') {
     result = number1 * number2;
 }
-else {
+else if (operator == '/') {
     result = number1 / number2;
+}
+else {
+    alert("Enter a valid operator")
 }
 
 alert(`${number1} ${operator} ${number2} = ${result}`);
